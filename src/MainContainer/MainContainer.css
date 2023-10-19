@@ -1,0 +1,13 @@
+main {
+    background-color: #fef8f8;
+    margin: 0;
+    height: calc(100vh - 171px);
+    width: 100vw;
+    margin-top: 53px;
+}
+.giveHeader {
+  font-size: 80px;
+  line-height: 100px;
+  transform: translateY(400px);
+  text-align: center;
+}

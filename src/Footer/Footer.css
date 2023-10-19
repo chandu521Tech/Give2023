@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.footerBanner {
+    width: 100%;
+    height: 114px;
+    background-image: url("https://www.bing.com/th?id=ABT2B10EF74BD3865B7986AE332A0E360639323AAB2BB7E6D62E76C0BA428B08989");
+    background-repeat: repeat;
+    background-size: cover;
+}

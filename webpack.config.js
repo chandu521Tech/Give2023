@@ -34,6 +34,11 @@ module.exports = {
         static: path.join(__dirname, 'dist'),
         port: 8080,
     },
+    performance: {
+        hints: process.env.NODE_ENV === 'production' ? 'warning' : false,
+        maxAssetSize: 500 * 1024,
+        maxEntrypointSize: 500 * 1024,
+      },
     plugins: [
         new HtmlWebpackPlugin({
             template: './index.html',

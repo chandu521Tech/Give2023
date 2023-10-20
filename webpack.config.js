@@ -32,7 +32,7 @@ module.exports = {
     },
     devServer: {
         static: path.join(__dirname, 'dist'),
-        port: 8080,
+        port: process.env.PORT || 8080,
         disableHostCheck: true,
     },
     performance: {

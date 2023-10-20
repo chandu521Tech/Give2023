@@ -34,9 +34,9 @@ module.exports = {
         static: path.join(__dirname, 'dist'),
         port: process.env.PORT || 8080,
         disableHostCheck: true,
+        publicPath: "https://wxcigive.azurewebsites.net/"
     },
     performance: {
-        hints: process.env.NODE_ENV === 'production' ? 'warning' : false,
         maxAssetSize: 500 * 1024,
         maxEntrypointSize: 500 * 1024,
       },

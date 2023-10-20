@@ -31,10 +31,11 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js', '.jsx'],
     },
     devServer: {
-        static: path.join(__dirname, 'dist'),
+        static: {
+            directory: path.join(__dirname, 'dist'),
+        },
         port: process.env.PORT || 8080,
-        disableHostCheck: true,
-        publicPath: "https://wxcigive.azurewebsites.net/"
+        disableHostCheck: true
     },
     performance: {
         maxAssetSize: 500 * 1024,

@@ -33,6 +33,7 @@ module.exports = {
     devServer: {
         static: path.join(__dirname, 'dist'),
         port: 8080,
+        disableHostCheck: true,
     },
     performance: {
         hints: process.env.NODE_ENV === 'production' ? 'warning' : false,
